@@ -32,13 +32,6 @@ public class Alterar {
 			
 			//adicionar novo registro
 			v.inserirRegistro(new Registro("13/02/2023 11:27",  v , "entrada"));
-			
-			//remover registros existentes
-			for (Registro r: v.getRegistros()) {
-				v.removerRegistro(r);
-				manager.delete(r);
-				manager.commit();
-			}
 
 			manager.store(v);
 			manager.commit();

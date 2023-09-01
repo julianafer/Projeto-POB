@@ -90,8 +90,6 @@ public class Cadastrar {
 		System.out.println("\nfim do programa !");
 	}
 
-	
-
 
 	public static void main(String[] args) {
 		new Cadastrar();

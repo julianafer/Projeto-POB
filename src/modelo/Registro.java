@@ -49,4 +49,8 @@ public class Registro {
 		this.operacao = operacao;
 	}
 	
+	@Override
+	public String toString() {
+		return "Registro: id=" + id + ", datahora=" + datahora + ", veiculo=" + veiculo.getPlaca() + ", operacao=" + operacao;
+	}
 }

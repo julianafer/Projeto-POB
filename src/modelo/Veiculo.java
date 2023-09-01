@@ -55,5 +55,10 @@ public class Veiculo {
 		}
 		return null;
 	}
+
+	@Override
+	public String toString() {
+		return "Veiculo: placa=" + placa + ", tipoveiculo=" + tipoveiculo.getNome() ;
+	}
 	
 }
